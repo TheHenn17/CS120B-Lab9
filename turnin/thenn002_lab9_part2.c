@@ -69,20 +69,6 @@ int Toggle_Tick(int state) {
 			state = T_Start;
 			break;
 	}
-	/*switch(state) {
-                case T_Start:
-                case T_Off:
-			set_PWM(0);
-                        break;
-                case T_On:
-			set_PWM(440);
-                        break;
-                case T_Wait:
-                        if(toggle == 0x01) { set_PWM(440); }
-                        else { set_PWM(0); }
-                default:
-                        break;
-        }*/
 	return state;
 }
 
